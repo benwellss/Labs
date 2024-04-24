@@ -101,4 +101,48 @@
 
 #### Task 3
 
+                initial_investment = float(input("What are you looking to invest?: £"))
+                target_value = float(input("What is your target value?: £"))
+                interest_rate = float(input("What is the interest rate?: "))
+                
+                years = 0
+                while initial_investment < target_value:
+                    initial_investment *= (1 + interest_rate)
+                    years += 1
+                
+                print(f"It will take approximately {years} years to reach your target value of £{target_value}.")
+
+#### Task 4
+
+                word = input("Enter a word: ")
+                
+                
+                if "a" in word:
+                    counter = word.count("a")
+                    print(f"This word contains {counter} A")
+                else:
+                    print("There is no A in this word")
+                if "e" in word:
+                    counter = word.count("e")
+                    print(f"This word contains {counter} E")
+                else:
+                    print("There is no E in this word")
+                if "i" in word:
+                    counter = word.count("i")
+                    print(f"This word contains {counter} I")
+                else:
+                    print("There is no I in this word")
+                if "o" in word:
+                    counter = word.count("o")
+                    print(f"This word contains {counter} O")
+                else:
+                    print("There is no O in this word")
+                if "u" in word:
+                    counter = word.count("u")
+                    print(f"This word contains {counter} U")
+                else:
+                    print("There is no U in this word")
+
+#### Task 5
+
 
