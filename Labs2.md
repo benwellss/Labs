@@ -82,13 +82,13 @@
                 if choice == "1":
                     print("Result", num1**2 + num2**2)
             
-            if choice == "1":
+            if choice == "2":
                 num1 = float(input("Enter A: "))
                 num2 = float(input("Enter C: "))
                 if choice == "2":
                     print("Result", num1**2 + num2**2)
             
-            if choice == "1":
+            if choice == "3":
                 num1 = float(input("Enter A: "))
                 num2 = float(input("Enter B: "))
                 if choice == "3":
