@@ -14,6 +14,8 @@ class TestCalculator(unittest.TestCase):
     def test_subtraction(self):
         calc = Calculator()
         self.assertEqual(calc.subtract(5, 2), 3)
+        self.assertEqual(calc.subtract(-5, -2), -3)
+        self.assertEqual(calc.subtract(100, 50), 50)
 
     @unittest.skip("skipping...")
     def test_skip(self):
